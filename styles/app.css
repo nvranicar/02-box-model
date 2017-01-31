@@ -11,3 +11,25 @@ ul {
 * {
   box-sizing: border-box;
 }
+
+/*.container {
+  padding: 4rem;
+}*/
+
+.top-bar {
+  background: #66b5e8;
+  overflow: auto;
+  color: #fefefe;
+}
+
+.top-bar__title {
+  float: left;
+}
+
+.top-bar__nav {
+  float: right;
+}
+
+.top-bar__link {
+  color: #fefefe;
+}
