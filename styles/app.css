@@ -31,5 +31,6 @@ ul {
 }
 
 .top-bar__link {
-  color: #fefefe;
+  color: inherit;
+  margin: 1rem;
 }
