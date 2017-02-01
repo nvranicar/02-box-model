@@ -45,35 +45,71 @@ h3 {
 
 .grid-item {
   border: rgba(186,186,186,.43) 0.1rem solid;
-  width: calc(100% / 4 - 2rem);
+  width: calc(100% / 3 - 2rem);
   margin: 1rem;
   border-radius: 0.5rem;
-  height: 15rem;
+  height: calc(100% / 6);
 }
 
 .blog-info {
-  margin: 0.5rem;
+  height: 6.5rem;
 }
 
 .blog-info__name {
   /*display: inline-block;*/
   text-align: left;
+  margin: 0.5rem;
 }
 
 .blog-info__username {
   /*display: inline-block;*/
   color: rgba(92,92,92,.58);
   text-align: left;
+  margin: 0.5rem;
 }
 
 .blog-info__pic {
-  width: 7rem;
+  width: 6rem;
   border-radius: 0.5rem;
   float: left;
+  margin: 0.5rem;
+  margin-top: -0.1rem;
 }
 
 .project {
   border-top: rgba(186,186,186,.43) 0.1rem solid;
   padding: 0.5rem;
-  text-align: left;
+}
+
+.project__repo {
+  display: inline-block;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.project__lang {
+  float: right;
+}
+
+.lang-name {
+  display: inline-block;
+  text-align: right;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.html-circle {
+  display: inline-block;
+  height: 0.75rem;
+  width: 0.75rem;
+  border-radius: 50%;
+  background: #ff5c00;
+}
+
+.css-circle {
+  display: inline-block;
+  height: 0.75rem;
+  width: 0.75rem;
+  border-radius: 50%;
+  background: #00a3ff;
 }
