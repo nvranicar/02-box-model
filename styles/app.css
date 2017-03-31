@@ -21,12 +21,12 @@ a {
 }
 
 .section {
-  margin: 0;
+  padding: 1rem;
 }
 
 .container {
-  margin: 0;
-  padding:  0 8rem;
+  margin: 0 auto;
+  max-width: 65rem;
 }
 
 .top-bar {
@@ -34,15 +34,17 @@ a {
   overflow: auto;
   color: #fefefe;
   padding: 0 9rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .top-bar__title {
-  float: left;
+  /*float: left;*/
   font-weight: bolder;
 }
 
 .top-bar__nav {
-  float: right;
+  /*float: right;*/
   margin: 1.5rem 0;
 }
 
@@ -52,15 +54,16 @@ a {
 }
 
 .grid {
-  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .grid-item {
+  flex-grow: 1;
   border: rgba(186,186,186,.43) 0.1rem solid;
-  width: calc(100% / 3 - 2rem);
+  flex-basis: calc(100% / 3 - 2rem);
   margin: 1rem;
   border-radius: 0.5rem;
-  float: left;
   min-width: 15rem;
 }
 
