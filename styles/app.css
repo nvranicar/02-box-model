@@ -38,9 +38,16 @@ a {
   justify-content: space-between;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .top-bar__title {
   /*float: left;*/
   font-weight: bolder;
+  margin: 1.5rem 1rem;
 }
 
 .top-bar__nav {
